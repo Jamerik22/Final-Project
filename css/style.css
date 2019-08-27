@@ -46,7 +46,7 @@ li{
 }
 p{
     margin: 7px;
-    color: darkred;
+    color: white;
     margin-left: auto;
     margin-right: auto;
 }
@@ -56,3 +56,6 @@ div{
 h1{
     color: white;
 } 
+.footer{
+    background-color: #07FF00;
+}
