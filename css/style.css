@@ -10,10 +10,7 @@ body{
     left: 50%;
     
 }
-.header li{
-    margin-left: auto;
-    margin-right: auto;
-}
+
 li{
     display: inline;
     list-style: none;
@@ -28,14 +25,14 @@ li{
 .img{
     position: relative;
     top: 25px; 
-    /* z-index: -1;  */
+    z-index: -1; 
     
 }
 .img h2{
-    /* position: absolute; */
-    top: 50px;
-    left:50px;
-    /* transform: translate(-50%, -50%); */
+    position: absolute;
+    top: 25px;
+    left:25px;
+    transform: translate(0%, -113%);
 }
 .img p{
     position: absolute;
@@ -50,12 +47,11 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
-div{
-    margin: auto;
-}
+
 h1{
     color: white;
 } 
+
 .footer{
     background-color: #07FF00;
 }
