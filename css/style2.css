@@ -110,9 +110,9 @@
       justify-content: center;
     }
   
-    .nav-list {
+    /* .nav-list {
       margin: 0 1rem;
-    }
+    } */
   }
   
   .nav-list a {
@@ -139,12 +139,11 @@
     
   }
   
-  .welcome-section > p {
-    font-size: 3rem;
+  /* .welcome-section > p {
+    font-size: 2rem;
     font-weight: 200;
     font-style: italic;
-    color: var(--main-red);
-  }
+  } */
   
   /* Projects section */
   
