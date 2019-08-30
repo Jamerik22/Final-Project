@@ -1,8 +1,9 @@
 
 body{
     background-color: black;
-    margin-left: auto;
-    margin-right: auto;
+    /* background-color:white; */
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 .header{
     background-color: darkgreen;
@@ -33,6 +34,7 @@ li{
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
+    margin-bottom: 0px;
 }
 .intro p{
     margin-top: 25px;
@@ -56,7 +58,7 @@ li{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: black;
+    /* background-color: black; */
 }
 p{
     margin: 23px;
@@ -108,8 +110,13 @@ h1{
         transform: translate(-50%, -50%);
         background-color: black;
     }
-    .hero a{
+    .more a{
         margin-top: 0px;
+
+    }
+    .pro h2{
+        margin-top: -400px;        
+        margin-bottom: 0px;
     }
     /* .welcome-section > p {
         font-size: 2rem;
@@ -131,12 +138,15 @@ h1{
     } 
     .intro p{
         margin-top: 25px;
-        margin-left:128px;
+        margin-left: 128px;
         background-color: none;
+    }
+    .imge img{
+        margin-bottom: 383px;
     }
     .imge p{
         position: absolute;
-        top: 47%;
+        top: 19%;
         left: 43%;
         transform: translate(-50%, -50%);
         background-color: black;
@@ -146,9 +156,12 @@ h1{
     }
     .imge h2{
         position: absolute;
-        top: 25px;
-        left: 57px;
-    }
+        top: -23px;
+        left: 38px;
+    }.pro h2{
+        margin-top: -400px;        
+        margin-bottom: -48px;
+
     /* .welcome-section > p {
         font-size: 2rem;
         font-weight: 200;
@@ -172,9 +185,12 @@ h1{
         margin-left:150px;
         background-color: none;
     }
+    .imge img{
+        margin-bottom: 383px;
+    }
     .imge p{
         position: absolute;
-        top: 47%;
+        top: 18%;
         left: 47%;
         transform: translate(-50%, -50%);
         background-color: black;
@@ -184,9 +200,12 @@ h1{
     }
     .imge h2{
         position: absolute;
-        top: 25px;
-        left: 76px;
+        top: 13px;
+        left: 55px;
     }
+    .pro h2{
+        margin-top: -390px;        
+        margin-bottom: -45px;
     /* .welcome-section > p {
         font-size: 2rem;
         font-weight: 200;
@@ -213,9 +232,12 @@ h1{
         margin-left:333px;
         background-color: none;
     }
+    .imge img{
+        margin-bottom: auto;
+    }
     .imge p{
         position: absolute;
-        top: 44%;
+        top: 40%;
         left: 52%;
         transform: translate(-50%, -50%);
         background-color: black;
@@ -232,7 +254,10 @@ h1{
         font-size: 4rem;
         font-weight: 200; 
         font-style: italic;
-      } 
+      }
+      .pro h2{
+        margin-top: -90px;        
+        margin-bottom: 0px; 
 }
 @media screen and (min-width: 1024px){
     .nav-list {
@@ -251,6 +276,9 @@ h1{
         margin-left:457px;
         background-color: none;
     }
+    .imge img{
+        margin-bottom: auto;
+    }
     .imge p{
         position: absolute;
         top: 37%;
@@ -265,8 +293,11 @@ h1{
         position: absolute;
         top: 25px;
         left: 352px;
-        background-color: green;
+        /* background-color: green; */
     }
+    .pro h2{
+        margin-top: -400px;        
+        margin-bottom: 0px;
     /* .welcome-section > p {
         font-size: 2rem;
         font-weight: 200;
