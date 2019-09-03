@@ -7,8 +7,7 @@ body{
 }
 .header{
     background-color: darkgreen;
-    top: 50%;
-    left: 50%;
+    /* s */
     
 }
 
@@ -76,6 +75,11 @@ h1{
     background-color:darkgreen;
 }
 @media screen and (min-width: 320px){
+   .header{
+    background-color: darkgreen;
+    top: 50%;
+    left: 50%;
+   }
     .nav-list {
         margin: 0 3rem;
         margin-left: 28px;
@@ -125,6 +129,11 @@ h1{
       } */
 }
 @media screen and (min-width: 375px){
+   .header{
+    background-color: darkgreen;
+    top: 50%;
+    left: 50%;
+   }
     .nav-list {
         margin: 0 5rem;
         margin-bottom: -31px;
@@ -169,6 +178,11 @@ h1{
       } */
 }
 @media screen and (min-width: 425px){
+   .header{
+    background-color: darkgreen;
+    top: 50%;
+    left: 50%;
+   }
     .nav-list {
         margin: 0 8rem;
         margin-bottom: -31px;
@@ -217,6 +231,11 @@ h1{
    
 }
 @media screen and (min-width: 768px){
+   .header{
+    background-color: darkgreen;
+    top: 50%;
+    left: 50%;
+   }
     .nav-list {
         margin: 0 1rem;
       }
@@ -260,6 +279,11 @@ h1{
         margin-bottom: 0px; 
 }
 @media screen and (min-width: 1024px){
+   .header{
+    background-color: darkgreen;
+    top: 50%;
+    left: 50%;
+   }
     .nav-list {
         margin: 0 1rem;
         margin-left: 115px;
@@ -296,7 +320,57 @@ h1{
         /* background-color: green; */
     }
     .pro h2{
-        margin-top: -400px;        
+        margin-top: 0px;        
+        margin-bottom: 0px;
+    /* .welcome-section > p {
+        font-size: 2rem;
+        font-weight: 200;
+        font-style: italic;
+      } */
+}
+@media screen and (min-width: 1440px){
+   .header{
+    background-color: darkgreen;
+    top: 50%;
+    left: 50%;
+   }
+    .nav-list {
+        margin: 0 1rem;
+        margin-left: 115px;
+      }
+    .links ul{
+        margin-left: 361px;
+        margin-top: -47px;
+    }  
+    .links p{
+        margin-left: 162px;
+    } 
+    .intro p{
+        margin-top: 25px;
+        margin-left:579px;
+        background-color: none;
+    }
+    .imge img{
+        margin-bottom: auto;
+    }
+    .imge p{
+        position: absolute;
+        top: 37%;
+        left: 51%;
+        transform: translate(-50%, -50%);
+        background-color: green;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .imge h2{
+        position: absolute;
+        top: 25px;
+        left: 352px;
+        /* background-color: green; */
+    }
+    .pro h2{
+        margin-top: 0px;        
         margin-bottom: 0px;
     /* .welcome-section > p {
         font-size: 2rem;
