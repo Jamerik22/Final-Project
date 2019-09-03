@@ -336,7 +336,7 @@ h1{
    }
     .nav-list {
         margin: 0 1rem;
-        margin-left: 115px;
+        margin-left: 185px;
       }
     .links ul{
         margin-left: 361px;
@@ -355,8 +355,8 @@ h1{
     }
     .imge p{
         position: absolute;
-        top: 37%;
-        left: 51%;
+        top: 40%;
+        left: 43%;
         transform: translate(-50%, -50%);
         background-color: green;
         margin-left: auto;
