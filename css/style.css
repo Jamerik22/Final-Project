@@ -7,14 +7,17 @@ body{
 }
 .header{
     background-color: darkgreen;
-    /* s */
+    /*  */
     
 }
-
+*,
+  *::before,
+  *::after {
+    box-sizing: content-box;
+  }
 li{
     display: inline;
     list-style: none;
-
 }
 .links a{
     display: inline;
@@ -59,6 +62,12 @@ li{
     transform: translate(-50%, -50%);
     /* background-color: black; */
 }
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    margin-left: 360px;
+  }
 p{
     margin: 23px;
     color: gold;
@@ -74,6 +83,7 @@ h1{
 .footer{
     background-color:darkgreen;
 }
+
 @media screen and (min-width: 320px){
    .header{
     background-color: darkgreen;
@@ -107,6 +117,12 @@ h1{
         bottom: 0px;
         /* transform: translate(0%, -113%); */
     }
+    .btn {
+        display: inline-block;
+        padding: 1rem 2rem;
+        border-radius: 2px;
+        margin-left: 800px;
+      }
     .imge p{
         position: absolute;
         top: 17%;
@@ -121,12 +137,7 @@ h1{
     .pro h2{
         margin-top: -400px;        
         margin-bottom: 0px;
-    }
-    /* .welcome-section > p {
-        font-size: 2rem;
-        font-weight: 200;
-        font-style: italic;
-      } */
+    
 }
 @media screen and (min-width: 375px){
    .header{
@@ -153,6 +164,12 @@ h1{
     .imge img{
         margin-bottom: 383px;
     }
+    .btn {
+        display: inline-block;
+        padding: 1rem 2rem;
+        border-radius: 2px;
+        margin-left: 800px;
+      }
     .imge p{
         position: absolute;
         top: 19%;
@@ -170,12 +187,6 @@ h1{
     }.pro h2{
         margin-top: -400px;        
         margin-bottom: -48px;
-
-    /* .welcome-section > p {
-        font-size: 2rem;
-        font-weight: 200;
-        font-style: italic;
-      } */
 }
 @media screen and (min-width: 425px){
    .header{
@@ -202,6 +213,12 @@ h1{
     .imge img{
         margin-bottom: 383px;
     }
+    .btn {
+        display: inline-block;
+        padding: 1rem 2rem;
+        border-radius: 2px;
+        margin-left: 800px;
+      }
     .imge p{
         position: absolute;
         top: 18%;
@@ -210,7 +227,6 @@ h1{
         background-color: black;
         margin-left: auto;
         margin-right: auto;
-        
     }
     .imge h2{
         position: absolute;
@@ -219,12 +235,7 @@ h1{
     }
     .pro h2{
         margin-top: -390px;        
-        margin-bottom: -45px;
-    /* .welcome-section > p {
-        font-size: 2rem;
-        font-weight: 200;
-        font-style: italic;
-      } */
+        margin-bottom: -45px
 }
 .project-title{
     margin: 0px;
@@ -254,6 +265,12 @@ h1{
     .imge img{
         margin-bottom: auto;
     }
+    .btn {
+        display: inline-block;
+        padding: 1rem 2rem;
+        border-radius: 2px;
+        margin-left: 800px;
+      }
     .imge p{
         position: absolute;
         top: 40%;
@@ -262,7 +279,6 @@ h1{
         background-color: black;
         margin-left: auto;
         margin-right: auto;
-        
     }
     .imge h2{
         position: absolute;
@@ -303,6 +319,12 @@ h1{
     .imge img{
         margin-bottom: auto;
     }
+    .btn {
+        display: inline-block;
+        padding: 1rem 2rem;
+        border-radius: 2px;
+        margin-left: 800px;
+      }
     .imge p{
         position: absolute;
         top: 37%;
@@ -322,11 +344,6 @@ h1{
     .pro h2{
         margin-top: 0px;        
         margin-bottom: 0px;
-    /* .welcome-section > p {
-        font-size: 2rem;
-        font-weight: 200;
-        font-style: italic;
-      } */
 }
 @media screen and (min-width: 1440px){
    .header{
@@ -353,6 +370,12 @@ h1{
     .imge img{
         margin-bottom: auto;
     }
+    .btn {
+        display: inline-block;
+        padding: 1rem 2rem;
+        border-radius: 2px;
+        margin-left: 800px;
+      }
     .imge p{
         position: absolute;
         top: 40%;
@@ -372,9 +395,5 @@ h1{
     .pro h2{
         margin-top: 0px;        
         margin-bottom: 0px;
-    /* .welcome-section > p {
-        font-size: 2rem;
-        font-weight: 200;
-        font-style: italic;
-      } */
+    }
 }

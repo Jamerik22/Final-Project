@@ -14,17 +14,13 @@
   }
   
   /* box-sizing and font sizing */
-  *,
-  *::before,
-  *::after {
-    box-sizing: content-box;
-  }
+  /*  */
   
-  html {
+  /* html {
     box-sizing: border-box;
     font-size: 62.5%;
     scroll-behavior: smooth;
-  }
+  } */
   
   
   @media (max-width: 75em) {
@@ -208,11 +204,12 @@
     padding: 2rem 0.5rem;
   }
   
-  .btn {
+  /* .btn {
     display: inline-block;
     padding: 1rem 2rem;
     border-radius: 2px;
-  }
+    margin-left: 800px;
+  } */
   
   .btn-show-all {
     font-size: 2rem;
