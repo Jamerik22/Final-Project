@@ -81,7 +81,10 @@
     display: block;
     width: 100%;
   }
-  
+  .imge a{
+    margin-top: 0px;
+
+}
   /* nav */
   
   .nav {

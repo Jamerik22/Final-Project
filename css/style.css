@@ -10,12 +10,12 @@ body{
     /*  */
     
 }
-*,
+/* *,
   *::before,
   *::after {
     box-sizing: content-box;
-  }
-li{
+  }*/
+li{ 
     display: inline;
     list-style: none;
 }
@@ -31,7 +31,7 @@ li{
     display: inline;
     list-style: none;
 }
-.hero img{
+.intro img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -42,6 +42,11 @@ li{
     margin-top: 25px;
     margin-left:333px;
     background-color: none;
+}
+.more a{
+    position: absolute;
+    margin-top: -152px;
+    margin-left: 565px;
 }
 .img{
     position: relative;
@@ -108,7 +113,15 @@ h1{
         background-color: none;
     }
     .imge img{
-        margin-bottom: 383px;
+        margin-bottom: 852px;
+        width: 50%;
+        border-radius: 70%;
+        opacity: 0.7;
+    }
+    .more a{
+        position: absolute;
+        margin-top: -453px;
+        margin-left: 95px;
     }
     .imge h2{
         position: absolute;
@@ -121,7 +134,7 @@ h1{
         display: inline-block;
         padding: 1rem 2rem;
         border-radius: 2px;
-        margin-left: 800px;
+        margin-left: 105px;
       }
     .imge p{
         position: absolute;
@@ -130,10 +143,10 @@ h1{
         transform: translate(-50%, -50%);
         background-color: black;
     }
-    .more a{
-        margin-top: 0px;
+    /* .imge a{
+        margin: 0px;
 
-    }
+    } */
     .pro h2{
         margin-top: -400px;        
         margin-bottom: 0px;
@@ -162,13 +175,15 @@ h1{
         background-color: none;
     }
     .imge img{
-        margin-bottom: 383px;
+        margin-bottom: 886px;
+        border-radius: 70%;
+        opacity: 0.7;
     }
     .btn {
         display: inline-block;
         padding: 1rem 2rem;
         border-radius: 2px;
-        margin-left: 800px;
+        margin-left: 140px;
       }
     .imge p{
         position: absolute;
@@ -179,6 +194,11 @@ h1{
         margin-left: auto;
         margin-right: auto;
         
+    }
+    .more a{
+        position: absolute;
+        margin-top: -445px;
+        margin-left: 120px;
     }
     .imge h2{
         position: absolute;
@@ -211,13 +231,15 @@ h1{
         background-color: none;
     }
     .imge img{
-        margin-bottom: 383px;
+        margin-bottom: 881px;
+        border-radius: 70%;
+        opacity: 0.7;
     }
     .btn {
         display: inline-block;
         padding: 1rem 2rem;
         border-radius: 2px;
-        margin-left: 800px;
+        margin-left: 160px;
       }
     .imge p{
         position: absolute;
@@ -227,6 +249,11 @@ h1{
         background-color: black;
         margin-left: auto;
         margin-right: auto;
+    }
+    .more a{
+        position: absolute;
+        margin-top: -438px;
+        margin-left: 150px;
     }
     .imge h2{
         position: absolute;
@@ -248,28 +275,30 @@ h1{
     left: 50%;
    }
     .nav-list {
-        margin: 0 1rem;
+        margin: 9px 9rem;
       }
     .links ul{
-        margin-left: 191px;
-        margin-top: -46px;
+        margin-left: 134px;
+        margin-top: -26px;
     }  
     .links p{
-        margin-left: 0px;
+        margin-left: 106px;
     } 
     .intro p{
         margin-top: 25px;
-        margin-left:333px;
+        margin-left: 315px;
         background-color: none;
     }
     .imge img{
-        margin-bottom: auto;
+        margin-bottom: 1117px;
+        border-radius: 70%;
+        opacity: 0.7;
     }
     .btn {
         display: inline-block;
         padding: 1rem 2rem;
         border-radius: 2px;
-        margin-left: 800px;
+        margin-left: 340px;
       }
     .imge p{
         position: absolute;
@@ -280,10 +309,15 @@ h1{
         margin-left: auto;
         margin-right: auto;
     }
+    .more a{
+        position: absolute;
+        margin-top: -152px;
+        margin-left: 320px;
+    }
     .imge h2{
         position: absolute;
         top: 25px;
-        left: 275px;
+        left: 211px;
     }
      .welcome-section > p {
         font-size: 4rem;
@@ -305,7 +339,7 @@ h1{
         margin-left: 115px;
       }
     .links ul{
-        margin-left: 253px;
+        margin-left: 240px;
         margin-top: -47px;
     }  
     .links p{
@@ -317,13 +351,15 @@ h1{
         background-color: none;
     }
     .imge img{
-        margin-bottom: auto;
+        margin-bottom: 133%;
+        border-radius: 70%;
+        opacity: 0.7;
     }
     .btn {
         display: inline-block;
         padding: 1rem 2rem;
         border-radius: 2px;
-        margin-left: 800px;
+        margin-left: 460px;
       }
     .imge p{
         position: absolute;
@@ -335,10 +371,15 @@ h1{
         margin-right: auto;
         
     }
+    .more a{
+        position: absolute;
+        margin-top: -152px;
+        margin-left: 535px;
+    }
     .imge h2{
         position: absolute;
         top: 25px;
-        left: 352px;
+        left: 423px;
         /* background-color: green; */
     }
     .pro h2{
@@ -347,49 +388,56 @@ h1{
 }
 @media screen and (min-width: 1440px){
    .header{
-    background-color: darkgreen;
-    top: 50%;
-    left: 50%;
-   }
+        background-color: darkgreen;
+        top: 50%;
+        left: 50%;
+    }
     .nav-list {
         margin: 0 1rem;
         margin-left: 185px;
       }
     .links ul{
-        margin-left: 361px;
+        margin-left: 318px;
         margin-top: -47px;
     }  
     .links p{
-        margin-left: 162px;
+        margin-left: 115px;
     } 
     .intro p{
         margin-top: 25px;
-        margin-left:579px;
+        margin-left: 513px;
         background-color: none;
     }
     .imge img{
-        margin-bottom: auto;
+        margin-bottom: 1481px;
+        border-radius: 70%;
+        opacity: 0.7;
     }
     .btn {
         display: inline-block;
         padding: 1rem 2rem;
         border-radius: 2px;
-        margin-left: 800px;
-      }
+        margin-left: 650px;
+    }
     .imge p{
         position: absolute;
         top: 40%;
-        left: 43%;
+        left: 54%;
         transform: translate(-50%, -50%);
         background-color: green;
         margin-left: auto;
         margin-right: auto;
         
     }
+    .more a{
+        position: absolute;
+        margin-top: -152px;
+        margin-left: 565px;
+    }
     .imge h2{
         position: absolute;
         top: 25px;
-        left: 352px;
+        left: 473px;
         /* background-color: green; */
     }
     .pro h2{
