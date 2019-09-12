@@ -288,15 +288,12 @@ html {
     background: var(--main-gray);
     border-top: 4px solid var(--main-red);
   }
-  
   footer > p {
     margin: 2rem;
   }
-  
   footer i {
     vertical-align: middle;
   }
-  
   @media (max-width: 28.75em) {
     footer {
       flex-direction: column;
