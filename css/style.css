@@ -10,11 +10,11 @@ body{
     /*  */
     
 }
-/* *,
+*,
   *::before,
   *::after {
     box-sizing: content-box;
-  }*/
+  }
 li{ 
     display: inline;
     list-style: none;
