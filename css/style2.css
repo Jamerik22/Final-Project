@@ -221,7 +221,7 @@
   }
   
   .btn-show-all:hover {
-    background: red;
+    background: green;
   }
   
   .btn-show-all:hover > i {
